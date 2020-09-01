@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface headCollectionViewHeader : UICollectionView<IGListBindable>
+@interface headCollectionViewHeader : UICollectionViewCell<IGListBindable>
 
 @property(nonatomic,strong)UIImageView *headImage;
 @property(nonatomic,strong)UIImageView *headAvatar;

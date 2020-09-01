@@ -27,6 +27,13 @@
 		F43999DF24FCEF0400B6B57C /* dgListCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999DE24FCEF0400B6B57C /* dgListCellModel.m */; };
 		F43999E224FCF1EF00B6B57C /* dgListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999E124FCF1EF00B6B57C /* dgListModel.m */; };
 		F43999E524FE31B900B6B57C /* contentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999E424FE31B900B6B57C /* contentCollectionViewCell.m */; };
+		F43999ED24FE42FB00B6B57C /* dgListBottomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43999E724FE42FB00B6B57C /* dgListBottomCollectionViewCell.xib */; };
+		F43999EE24FE42FB00B6B57C /* dgListBottomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999E824FE42FB00B6B57C /* dgListBottomCollectionViewCell.m */; };
+		F43999EF24FE42FB00B6B57C /* contentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999E924FE42FB00B6B57C /* contentCollectionViewCell.m */; };
+		F43999F024FE42FB00B6B57C /* dgListLocationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F43999EA24FE42FB00B6B57C /* dgListLocationCollectionViewCell.xib */; };
+		F43999F124FE42FB00B6B57C /* dgListLocationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999EC24FE42FB00B6B57C /* dgListLocationCollectionViewCell.m */; };
+		F43999F424FE434E00B6B57C /* listHeaderImageC.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999F324FE434E00B6B57C /* listHeaderImageC.m */; };
+		F43999F724FE4E8A00B6B57C /* listContentC.m in Sources */ = {isa = PBXBuildFile; fileRef = F43999F624FE4E8A00B6B57C /* listContentC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +96,17 @@
 		F43999E124FCF1EF00B6B57C /* dgListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dgListModel.m; sourceTree = "<group>"; };
 		F43999E324FE31B900B6B57C /* contentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = contentCollectionViewCell.h; sourceTree = "<group>"; };
 		F43999E424FE31B900B6B57C /* contentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = contentCollectionViewCell.m; sourceTree = "<group>"; };
+		F43999E624FE42FB00B6B57C /* dgListLocationCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dgListLocationCollectionViewCell.h; sourceTree = "<group>"; };
+		F43999E724FE42FB00B6B57C /* dgListBottomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dgListBottomCollectionViewCell.xib; sourceTree = "<group>"; };
+		F43999E824FE42FB00B6B57C /* dgListBottomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dgListBottomCollectionViewCell.m; sourceTree = "<group>"; };
+		F43999E924FE42FB00B6B57C /* contentCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentCollectionViewCell.m; sourceTree = "<group>"; };
+		F43999EA24FE42FB00B6B57C /* dgListLocationCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dgListLocationCollectionViewCell.xib; sourceTree = "<group>"; };
+		F43999EB24FE42FB00B6B57C /* dgListBottomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dgListBottomCollectionViewCell.h; sourceTree = "<group>"; };
+		F43999EC24FE42FB00B6B57C /* dgListLocationCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dgListLocationCollectionViewCell.m; sourceTree = "<group>"; };
+		F43999F224FE434E00B6B57C /* listHeaderImageC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listHeaderImageC.h; sourceTree = "<group>"; };
+		F43999F324FE434E00B6B57C /* listHeaderImageC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listHeaderImageC.m; sourceTree = "<group>"; };
+		F43999F524FE4E8A00B6B57C /* listContentC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listContentC.h; sourceTree = "<group>"; };
+		F43999F624FE4E8A00B6B57C /* listContentC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listContentC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +251,10 @@
 			children = (
 				F43999BA24FC9FB600B6B57C /* pengyouquanVC.h */,
 				F43999BB24FC9FB600B6B57C /* pengyouquanVC.m */,
+				F43999F224FE434E00B6B57C /* listHeaderImageC.h */,
+				F43999F324FE434E00B6B57C /* listHeaderImageC.m */,
+				F43999F524FE4E8A00B6B57C /* listContentC.h */,
+				F43999F624FE4E8A00B6B57C /* listContentC.m */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -280,6 +302,13 @@
 				F43999DA24FCEE6D00B6B57C /* headCollectionViewHeader.h */,
 				F43999DB24FCEE6D00B6B57C /* headCollectionViewHeader.m */,
 				F43999E324FE31B900B6B57C /* contentCollectionViewCell.h */,
+				F43999E924FE42FB00B6B57C /* contentCollectionViewCell.m */,
+				F43999EB24FE42FB00B6B57C /* dgListBottomCollectionViewCell.h */,
+				F43999E824FE42FB00B6B57C /* dgListBottomCollectionViewCell.m */,
+				F43999E724FE42FB00B6B57C /* dgListBottomCollectionViewCell.xib */,
+				F43999E624FE42FB00B6B57C /* dgListLocationCollectionViewCell.h */,
+				F43999EC24FE42FB00B6B57C /* dgListLocationCollectionViewCell.m */,
+				F43999EA24FE42FB00B6B57C /* dgListLocationCollectionViewCell.xib */,
 				F43999E424FE31B900B6B57C /* contentCollectionViewCell.m */,
 			);
 			path = cell;
@@ -392,7 +421,9 @@
 			files = (
 				F439999024FC9C4600B6B57C /* LaunchScreen.storyboard in Resources */,
 				F439998D24FC9C4600B6B57C /* Assets.xcassets in Resources */,
+				F43999ED24FE42FB00B6B57C /* dgListBottomCollectionViewCell.xib in Resources */,
 				F439998B24FC9C4500B6B57C /* Main.storyboard in Resources */,
+				F43999F024FE42FB00B6B57C /* dgListLocationCollectionViewCell.xib in Resources */,
 				F43999D824FCE78900B6B57C /* ninePhotoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,9 +491,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43999EE24FE42FB00B6B57C /* dgListBottomCollectionViewCell.m in Sources */,
+				F43999F424FE434E00B6B57C /* listHeaderImageC.m in Sources */,
 				F439998824FC9C4500B6B57C /* ViewController.m in Sources */,
 				F43999D324FCE61C00B6B57C /* ninePhotoView.m in Sources */,
 				F43999CC24FCD6C400B6B57C /* headRefreshView.m in Sources */,
+				F43999F124FE42FB00B6B57C /* dgListLocationCollectionViewCell.m in Sources */,
+				F43999EF24FE42FB00B6B57C /* contentCollectionViewCell.m in Sources */,
+				F43999F724FE4E8A00B6B57C /* listContentC.m in Sources */,
 				F43999D724FCE78900B6B57C /* ninePhotoCollectionViewCell.m in Sources */,
 				F439998224FC9C4500B6B57C /* AppDelegate.m in Sources */,
 				F43999BC24FC9FB600B6B57C /* pengyouquanVC.m in Sources */,
