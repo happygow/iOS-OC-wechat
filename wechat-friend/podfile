@@ -1,0 +1,8 @@
+target 'wechat-friend' do
+pod 'IGListKit'
+pod 'MJExtension'
+pod 'MJRefresh'
+pod ‘SDWebImage’
+pod 'YYKit'
+
+end
